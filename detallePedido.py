@@ -9,8 +9,12 @@ class DetallePedido(object):
 		"""metodo para calcular subtotal en base a la cantidad y el prcio de la pizza
 		1 - preguntar tipo y tamño desea
 		2 - return del precio
+		test de ramas dev en git
 		"""
-		pass
+		for p in self.pizza:
+			self.subtotal += p.calcularPrecio()
+		return self.subtotal
+
 
 	def agregar(self):
 		pass
