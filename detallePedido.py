@@ -10,6 +10,7 @@ class DetallePedido(object):
 		1 - preguntar tipo y tamño desea
 		2 - return del precio
 		test de ramas dev en git
+		testteo de ramas en dev para Git
 		"""
 		for p in self.pizza:
 			self.subtotal += p.calcularPrecio()
